@@ -1,3 +1,9 @@
+import CardContainer from "./components/CardContainer";
+
 export default function Home() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <CardContainer />
+    </div>
+  );
 }
