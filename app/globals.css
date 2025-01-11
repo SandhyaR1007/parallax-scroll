@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .main {
-  margin-top: 50vh;
+  margin-top: 80vh;
   margin-bottom: 100vh;
 }
 .cardContainer {
@@ -17,4 +17,14 @@
   width: 800px;
   height: 400px;
   border-radius: 10px;
+}
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 60%;
+}
+.inner {
+  width: 100%;
+  height: 100%;
 }
